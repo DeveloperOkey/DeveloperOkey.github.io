@@ -1,0 +1,67 @@
+/*MODO DARK*/
+#modo {
+    width: 30px;
+    font-size: 35px;
+    cursor: pointer;
+    color: #003147;
+}
+
+.dark {
+    background: rgb(4, 24, 27);
+    background: url(../img/fondo2.jpg);
+    background-size: cover;
+}
+
+.dark #modo {
+    color: rgb(68, 195, 153);
+}
+
+
+/* .modo div {
+    font-size: 125px;
+    
+} */
+
+.dark h1 {
+    color: rgb(155, 155, 155);
+}
+
+.dark .container .lado_izq {
+    background: rgb(2, 80, 74, 0.815);
+}
+
+.dark .container .lado_der {
+    background: rgba(18, 18, 18, 0.815);
+}
+
+.dark .title2 {
+    color: rgb(68, 195, 153);
+}
+
+.dark p {
+    color: rgb(225, 224, 224);
+}
+
+.dark .about .box .text h4 {
+    color: rgb(120, 190, 167);
+}
+
+.dark .year_company {
+    color: rgb(206, 199, 199);
+}
+
+.dark a:hover {
+    color: rgb(68, 195, 153);
+}
+
+.dark .contactoInfo.Educacion h5 {
+    color: rgb(3, 5, 4);
+}
+
+.dark .contactoInfo ul li .icono {
+    color: rgb(3, 5, 4);
+}
+
+.dark .skills .box .porcentaje div {
+    background: rgb(2, 80, 74);
+}
