@@ -1,254 +1,252 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-    /*background: lightblue;/*Fondo*/
-    /* background: url(../img/fondo.jpg); */
-    background: rgb(70, 146, 171);
-    background-size: cover;
-    display: flex;/*alinea a la izq*/
-    justify-content: center;/*texto en medio*/
-    align-items: center;/*texto en medio*/
-    min-height: 100vh;/*minimo de alto*/
+  /*background: lightblue;/*Fondo*/
+  /* background: url(../img/fondo.jpg); */
+  background: rgb(70, 146, 171);
+  background-size: cover;
+  display: flex; /*alinea a la izq*/
+  justify-content: center; /*texto en medio*/
+  align-items: center; /*texto en medio*/
+  min-height: 100vh; /*minimo de alto*/
 }
 
 #particles-js {
-    background-size: cover;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    position: absolute;
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
 .container {
-    position: relative;/*permite usar las posiciones -top-left-right-bottom*/
-    width: 100%;
-    max-width: 1000px;
-    min-height: 1000px;
-    background: rgba(255, 255, 255, 0);
-    margin: 50px;
-    display: grid;/*creacion de columna*/
-    grid-template-columns: 1fr 2fr;/*columna azul porcion*/
-    box-shadow: 0 35px 55px rgba(0,0,0,0.1);/*sombra de bajo el container*/
+  position: relative; /*permite usar las posiciones -top-left-right-bottom*/
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: rgba(255, 255, 255, 0);
+  margin: 50px;
+  display: grid; /*creacion de columna*/
+  grid-template-columns: 1fr 2fr; /*columna azul porcion*/
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1); /*sombra de bajo el container*/
 }
 
 .container .lado_izq {
-    position: relative;
-    background: rgb(0, 49, 71, 0.815);
-    padding: 40px;
-    
+  position: relative;
+  background: rgb(0, 49, 71, 0.815);
+  padding: 40px;
 }
 
 /*imagen perfil zoom/ubi*/
 #img-perfil {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-    user-select: none; /*evitar seleccion*/
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  user-select: none; /*evitar seleccion*/
 }
 /*Barra perfil*/
 .texto_perfil {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 20px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 /*Imagen perfil*/
 .texto_perfil .imgbx {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    overflow: hidden;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 /*Sergio Lopez Web developer*/
 .texto_perfil h2 {
-    color: rgb(255, 255, 255);
-    font-size: 1.5em;
-    margin-top: 20px;
-    text-transform: uppercase; /*texto en negrita*/
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-transform: uppercase; /*texto en negrita*/
 }
 
 .contactoInfo {
-    padding-top: 40px;
+  padding-top: 40px;
 }
 
 /*Contacto Info*/
 .title {
-    color: #fff;
-    text-transform: uppercase; /*texto en negrita*/
-    font-weight: 600;
-    letter-spacing: 1px; /*espacio entre letras*/
-    margin-bottom: 20px; /*espacio de abajo*/
+  color: #fff;
+  text-transform: uppercase; /*texto en negrita*/
+  font-weight: 600;
+  letter-spacing: 1px; /*espacio entre letras*/
+  margin-bottom: 20px; /*espacio de abajo*/
 }
 
 /*Datos de contacto*/
 .contactoInfo ul li {
-    position: relative;
-    list-style: none;
-    margin: 10px 0;
-    cursor: pointer;
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
 }
 
 /*iconos de contacto*/
 .contactoInfo ul li .icono {
-    /* display: inline-block; */
-    width: 30px;
-    font-size: 18px;
-    color: #03a9f4;
+  /* display: inline-block; */
+  width: 30px;
+  font-size: 18px;
+  color: #03a9f4;
 }
 
 /*span*/
 .contactoInfo ul li span {
-    color: #fff;
-    font-weight: 300;
+  color: #fff;
+  font-weight: 300;
 }
 /*Educacion info*/
 .contactoInfo.Educacion li {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .contactoInfo.Educacion h5 {
-    color: #03a9f4;
-    font-weight: 500;
+  color: #03a9f4;
+  font-weight: 500;
 }
 
 .contactoInfo.Educacion h4 {
-    color: #fff;
-    font-weight: 500;
+  color: #fff;
+  font-weight: 500;
 }
 
 /*web developer*/
 .texto_perfil h2 span {
-    font-size: 0.8em;
-    font-weight: 300;
+  font-size: 0.8em;
+  font-weight: 300;
 }
 
-a{
-    text-decoration: none;
-    color: #fff;
+a {
+  text-decoration: none;
+  color: #fff;
 }
-a:hover{
-    text-decoration: none;
-    color: #03a9f4;
-    transition: all 300ms ease-in-out;
+a:hover {
+  text-decoration: none;
+  color: #03a9f4;
+  transition: all 300ms ease-in-out;
 }
 
 /*LADO DERECHO DE LA HOJA*/
 .container .lado_der {
-    position: relative;
-    background: rgba(255, 255, 255, 0.65);
-    padding: 40px;
+  position: relative;
+  background: rgba(255, 255, 255, 0.65);
+  padding: 40px;
 }
 
 .about {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 /*pseudo-selector que selecciona el último elemento hijo de un elemento padre específico*/
 .about:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .title2 {
-    color: #003147;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-    font-size: 1.5em;
+  color: #003147;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  font-size: 1.5em;
 }
 
 p {
-    color: #333 ;
+  color: #333;
 }
 
 #negrita {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .about .box {
-    display: flex;
-    flex-direction: row;
-    margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
 }
 
 .about .box .year_company {
-    min-width: 150px;
+  min-width: 150px;
 }
 .about .box .year_company h5 {
-    text-transform: uppercase;
-    color: #848c90;
-    font-weight: 600;
+  text-transform: uppercase;
+  color: #848c90;
+  font-weight: 600;
 }
 
-
 .about .box .text h4 {
-    text-transform: uppercase;
-    color: #2a7da2;
-    font-size: 16px;
+  text-transform: uppercase;
+  color: #2a7da2;
+  font-size: 16px;
 }
 
 .skills .box {
-    position: relative;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 150px 1fr;
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  justify-content: center;
+  align-items: center;
 }
 
 .skills .box h4 {
-    text-transform: uppercase;
-    color: #848c99;
-    font-weight: 500;
+  text-transform: uppercase;
+  color: #848c99;
+  font-weight: 500;
 }
 
 .skills .box .porcentaje {
-    position: relative;
-    width: 100%;
-    height: 10px;
-    background: #f0f0f0;
+  position: relative;
+  width: 100%;
+  height: 10px;
+  background: #f0f0f0;
 }
 
 .skills .box .porcentaje div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background: #03a9f4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #03a9f4;
 }
 
 .flex-end {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-@media (max-width: 1000px){
-    .container{
-        margin: 10px;
-        grid-template-columns: repeat(1,1fr);
-    }
+@media (max-width: 1000px) {
+  .container {
+    margin: 10px;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
-@media (max-width: 600px){
-    .about .box {
-        flex-direction: column;
-    }
-    .about .box .year_company {
-        margin-bottom: 5px;
-    }
+@media (max-width: 600px) {
+  .about .box {
+    flex-direction: column;
+  }
+  .about .box .year_company {
+    margin-bottom: 5px;
+  }
 }
